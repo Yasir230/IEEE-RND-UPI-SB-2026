@@ -233,7 +233,7 @@ export default function Slideshow({ open, onClose, onRequestMusic }: SlideshowPr
             alt={`Slide ${current + 1}`}
             className="w-full h-full"
             style={{
-              objectFit: 'cover',
+              objectFit: 'contain',
               objectPosition: 'center',
             }}
             draggable={false}
@@ -308,12 +308,12 @@ export default function Slideshow({ open, onClose, onRequestMusic }: SlideshowPr
           animation: kenburnsOut 0.6s ease forwards;
         }
         @keyframes kenburnsIn {
-          from { transform: scale(1.15) translate(2%, -1%); opacity: 0; }
-          to   { transform: scale(1.05) translate(0, 0); opacity: 1; }
+          from { transform: scale(1.08) translate(1%, -0.5%); opacity: 0; }
+          to   { transform: scale(1.02) translate(0, 0); opacity: 1; }
         }
         @keyframes kenburnsOut {
-          from { transform: scale(1.05) translate(0, 0); opacity: 1; }
-          to   { transform: scale(1.15) translate(-2%, 1%); opacity: 0; }
+          from { transform: scale(1.02) translate(0, 0); opacity: 1; }
+          to   { transform: scale(1.08) translate(-1%, 0.5%); opacity: 0; }
         }
 
         .slide-enter-blur {
