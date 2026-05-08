@@ -19,6 +19,8 @@ export const heroPhotos: Photo[] = [
   { id: 'h5', src: '/images/hero-new/hero-5.jpg', caption: 'Bukber part 3', rotation: -3 },
   /* 📸 REPLACE: swap src with your actual photo path */
   { id: 'h6', src: '/images/hero-new/hero-6.jpg', caption: 'LUCUUUUUU', rotation: 1.8 },
+  /* 📸 REPLACE: swap src with your actual photo path */
+  { id: 'h7', src: '/images/hero-new/hero-7.jpg', caption: 'MEETING TIME', rotation: -2.2 },
 ];
 
 export const galleryPhotos: Photo[] = [
