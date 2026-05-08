@@ -13,13 +13,13 @@ interface HeroSectionProps {
 const finalRotations = [-12, 15, -8, 10, -18, 12, -15];
 
 const cardPositions = [
-  { left: '4%', top: '8%' },    // Top Left
-  { left: '84%', top: '12%' },   // Top Right
-  { left: '88%', top: '50%' },   // Mid Right
-  { left: '5%', top: '58%' },    // Mid Left
-  { left: '16%', top: '32%' },   // Upper Mid Left
-  { left: '76%', top: '35%' },   // Upper Mid Right
-  { left: '3%', top: '78%' },    // Bottom Left
+  { left: '4%', top: '10%' },    // h1: Top Left
+  { left: '82%', top: '12%' },   // h2: Top Right
+  { left: '86%', top: '58%' },   // h3: Mid-Bottom Right
+  { left: '5%', top: '62%' },    // h4: Mid-Bottom Left
+  { left: '15%', top: '35%' },   // h5: Mid-Top Left
+  { left: '74%', top: '38%' },   // h6: Mid-Top Right
+  { left: '78%', top: '78%' },   // h7: Bottom Right (The missing "makan" photo)
 ];
 
 const finalOffsets = [
